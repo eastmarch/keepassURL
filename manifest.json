@@ -1,0 +1,28 @@
+{
+  "name": "URL for KeePass",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Shows the current URL's hostname in the window title. Click the toolbar button or type CTRL+Q to activate.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1T0PZAH4deOr/OqhRSlYBGkkDjwQ0MlD0VB8JsdPl8WA61yvk7JxHtLBUSBTxd+UlLlhsQ81jVgBrwwdMUcmOFqBUIgI33K9xSdV2gWKcbc+OtQt1u5x5KPFgf0mZzCtfadBxaZJUKnMgWDmJc9ecPVkqUyuZePQ17WMRCC+9PYL69jSe3y27ucaaODph8d94FWtLrJxTVc/bYl9Nh4OF4F9tPwYzukx0izeML2eFjFYlT3leup9YrIqoc3Ul8E49DmZdGDfLTryT5o0bzDRbh33JPDL0iF1Z9dPgAW2HwfjMATQDjvcwNB5F0NS64OjOi+PAcIFbayLuybG9GX0PQIDAQAB",
+  "permissions": ["activeTab"],
+  "icons": {
+    "128": "img/icon_128.png",
+    "64": "img/icon_64.png",
+    "32": "img/icon_32.png",
+    "16": "img/icon_16.png"
+  },
+  "browser_action": {
+    "default_title": "URL for KeePass"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Q"
+      }
+    }
+  }
+}
