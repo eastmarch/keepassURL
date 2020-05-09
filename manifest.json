@@ -1,8 +1,8 @@
 {
   "name": "URL for KeePass",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
-  "description": "Shows the current URL's hostname in the window title. Click the toolbar button or type CTRL+B to activate.",
+  "description": "Shows the current URL's hostname in the window title. Click the toolbar button or type CTRL+Q to activate.",
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqW3wDCuMw4sUi6+ZrggAWNztyzB/7BDHWMtHJZOiDKAzkIz4BThCVjs/AKlO9FetwkeWqwFRQw2Qhro/TDIib53E6IXC4s+qprprUWHYfBi7ZFDWuvPqUhj2Z+ExpS5x24ujTSO+PmqxS9nvB4gpumeWfWqEVC2wbPGTf/36HjopA1MmsLI8V3AUEN544hJO+PzhZRZYp/NjiRZjfOk9ng92PbJG9+8IImPjEJWSUnfu5hHaJoRbg/3J4JzTClJ4NIhKi6EBtFafWWOiiqbYP32CZaDLW5Ut6/mtmnh/3fyuaDstcG526va2nw53UaJwoqhISiXiKbcjSHyIDdRp8QIDAQAB",
   "permissions": ["activeTab"],
   "icons": {
@@ -21,7 +21,7 @@
   "commands": {
     "_execute_browser_action": {
       "suggested_key": {
-        "default": "Ctrl+B"
+        "default": "Ctrl+Q"
       }
     }
   }
